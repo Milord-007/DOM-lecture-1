@@ -1,0 +1,44 @@
+.btn{
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    padding: 15px;
+
+}
+
+.modal-overly{
+ position: fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background-color: rgba(0,0,0,0.7);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ width: 100%;
+
+}
+.modal{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: #fff;
+    justify-content: center;
+    display: none;
+}
+
+.modals-visible {
+    display: block;
+}
+.modal-overly-visible {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3 ease-in-out;
+}
+.modal-visible{
+    display: block;
+}
